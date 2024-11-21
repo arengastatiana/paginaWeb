@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Esta Soy Yo</h1>
+            <section class="menu">
+                <nav>
+                    <ul class="container-ul">
+                        <li class="container-ul__li ">
+                            <button class="btn" onclick="location.href='#informacion'">Mi informacion</button>
+                        </li>
+                        <li class="container-ul__li">
+                            <button class="btn" onclick="location.href='#gustos'">Mis gustos</button>
+                        </li>
+                        <li class="container-ul__li">
+                            <button class="btn" onclick="location.href='#metas'">Mis Metas</button>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+    </header>
+    <main>
+        <section id ="informacion">
+            <h2>Un poco sobre Mì</h2>
+            <p>Mi nombre es Tatiana Arengas Martinez tengo 19 años, Nací en el 2005 en 20 de abril,
+                soy de Ocaña norte de Santander pero me crie en la costa luego en el 2020 por problemas
+                familiares de mis papas nos vinimos a vivir aca Ocaña, me matricule  en el colegio la industrial 
+                y estudie dos años me cambie de colegio porque me uedaba un poco lejos, me matricule en la salle, hay me gradue y pase a la universidad lo cual es uno de mis mayores logros</p>
+                <img src="./src/imagenes/yo.jpg" class="centrada" alt="Imagen centrada" style="margin-top: 15px;">
+            </section>
+            <section class="container_gustos">
+                <section class="gustos">
+                    <section class="text_gustos">
+                        <h2>Mis Gustos</h2>
+                        <p>En este espacio comparto algunos de mis gustos y actividades favoritas que forman parte de mi día a día. Disfruto ir al gimnasio, salir a comer, viajar y estudiar. Estas actividades no solo me apasionan, sino que también intento integrarlas siempre en mi rutina.</p>
+                        <img src="./src/imagenes/comida.jpg" >
+                        <a href="./index2.html" target="_blank" 
+                        class="btn1">Conoce mas</a>
+                    </section>
+                </section>
+            </section>
+            <section class="container_general" id="metas">
+                <section class="primario">
+                    <section class="text_primario">
+                        <h2>Mis Metas A Futuro</h2>
+                    </section>
+                    <section class="container_card">
+                        <section class="card_primario">
+                            <img src="./src/imagenes/graduarme.jpg">
+                            <h3>Terminar mi carrera universitaria</h3>
+                            <p>Una de mis principales metas es alcanzar mi sueño de graduarme de la universidad.</p>
+                        </section>
+                        <section id="casa" class="card_primario">
+                            <img src="./src/imagenes/comprar mi casa propia.jpg">
+                            <h3>Poder comprar mi casa propia</h3>
+                            <p>En mis planes a futuro también está poder tener mi casa propia y asi poder ayudar a mis papas</p>
+                        </section>
+                        <section class="card_primario">
+                            <img src="./src/imagenes/Mi hogar.jpg">
+                            <h3>Tener un hogar sano</h3>
+                            <p>A futuro quiero tener un hogar sano y estar muy estable con mi familia</p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section id="contacto" style="padding-top: 100px;">
+                <h2>Contáctame</h2>
+                <form >
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="Tu correo" required>
+                    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+    </main>
+</body>
+<footer>
+    <section class="pie_pagina">
+        <div class="cont">
+            <h2>Sobre Mi</h2>
+            <img src="./src/imagenes/pie de pagina.jpg" style="width: 200px;">
+        </div>
+                <p>Gracias por visitar mi pagina, Estoy aqui para ayudarte</p>
+                <p>Si tienes alguna pregunta o necesitas más información, no dudes en ponerte en contacto conmigo.</p>
+                <h2>Mis Redes Sociales</h2>
+                <section class="redes">
+                <a href="https://wa.me/573123722118" target="_blank">
+                    <img src="./src/imagenes/wasap.png">
+                </a>
+                <a href="https://www.facebook.com/latati.martinez.18?locale=es_LA" target="_blank">
+                    <img src="./src/imagenes/Logo_de_Facebook.png">
+                </a>
+            </section>
+            <small
+            >&copy; 2024 Todos los derechos reservados</small>
+    </section>
+</footer>
+</html>
